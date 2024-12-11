@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Rays Software\WorkSpace\spring-mvc\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4262064698.index

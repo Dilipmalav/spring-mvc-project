@@ -1,0 +1,13 @@
+127.0.0.1 - - [10/Dec/2024:23:19:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:19:26 +0530] "GET /spring-mvc-simple/WEB-INF/classes/com/rays/ctl/WelcomeCtl.java HTTP/1.1" 404 682
+127.0.0.1 - - [10/Dec/2024:23:22:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:22:18 +0530] "GET /spring-mvc-simple/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:22:52 +0530] "GET /spring-mvc-simple/WelcomeCtl HTTP/1.1" 500 17610
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:30:52 +0530] "GET /spring-mvc-simple/WelcomeCtl HTTP/1.1" 500 18689
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:31:11 +0530] "GET /spring-mvc-simple/WelcomeCtl HTTP/1.1" 500 18689
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:31:45 +0530] "GET /spring-mvc-simple/WelcomeCtl HTTP/1.1" 500 18689
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:35:59 +0530] "GET /spring-mvc-simple/Welcome HTTP/1.1" 500 17610
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:37:24 +0530] "GET /spring-mvc-simple/Welcome HTTP/1.1" 200 204
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:38:48 +0530] "GET /spring-mvc-simple/Welcome/first HTTP/1.1" 200 204
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:39:26 +0530] "GET /spring-mvc-simple/Welcome/second HTTP/1.1" 200 204
+0:0:0:0:0:0:0:1 - - [10/Dec/2024:23:39:44 +0530] "GET /spring-mvc-simple/Welcome HTTP/1.1" 200 204
