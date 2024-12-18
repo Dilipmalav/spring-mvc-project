@@ -1,3 +1,4 @@
+<%@ page isELIgnored="false"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -8,9 +9,11 @@
 </head>
 <body>
 
+   <%@ include file="Header.jsp"%>
 	<div align="center">
 	
 		<h1>spring-mvc-simple</h1>
+		<h3>${msg}</h3>
 		
 	</div>
 

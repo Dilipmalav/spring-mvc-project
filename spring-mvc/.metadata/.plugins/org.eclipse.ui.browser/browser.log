@@ -1,0 +1,30 @@
+
+Dec 11, 2024 17:30:52.70 NEW SESSION
+Dec 11, 2024 17:30:52.70 [16132:24096:1211/173052.704:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 11, 2024 17:30:53.43 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 11, 2024 17:30:53.47 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 11, 2024 17:31:14.85 [16132:24096:1211/173114.854:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 11, 2024 17:31:55.74 [16132:24096:1211/173155.745:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 11, 2024 17:32:20.18 [16132:20876:1211/173220.187:ERROR:device_event_log_impl.cc(201)] [17:32:20.156] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 11, 2024 17:32:33.66 [16132:20876:1211/173233.665:ERROR:device_event_log_impl.cc(201)] [17:32:33.664] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 11, 2024 17:33:27.12 [16132:24096:1211/173327.128:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 11, 2024 17:36:49.94 [16132:24096:1211/173649.946:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 11, 2024 17:41:01.31 [16132:24096:1211/174101.313:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 11, 2024 18:24:38.35 [16132:24096:1211/182438.352:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Dec 11, 2024 18:24:39.66 [16132:24096:1211/182439.667:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 11, 2024 18:43:25.72 [16132:24096:1211/184325.722:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 11, 2024 19:36:32.13 [16132:24096:1211/193632.130:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 11, 2024 19:36:32.23 [16132:24096:1211/193632.229:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Dec 11, 2024 19:36:43.54 [16132:24096:1211/193643.546:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Dec 11, 2024 20:27:21.29 [16132:24096:1211/202721.278:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 11, 2024 22:26:08.45 [16132:5492:1211/222608.454:ERROR:get_updates_processor.cc(267)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Dec 11, 2024 23:51:24.89 [16132:24096:1211/235124.839:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 12, 2024 09:55:25.34 [16132:24096:1212/095525.274:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 12, 2024 09:55:46.40 [16132:24096:1212/095546.400:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 12, 2024 09:56:32.82 [16132:24096:1212/095632.823:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 12, 2024 09:58:29.46 [16132:24096:1212/095829.460:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 12, 2024 10:02:14.18 [16132:24096:1212/100214.178:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 12, 2024 10:07:47.89 [16132:24096:1212/100747.888:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 12, 2024 10:19:40.89 [16132:24096:1212/101940.890:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 12, 2024 10:19:43.38 [16132:24096:1212/101943.382:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Dec 12, 2024 11:08:33.17 [16132:24096:1212/110833.171:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
