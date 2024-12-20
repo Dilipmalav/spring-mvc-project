@@ -26,11 +26,13 @@ public class LoginCtl {
 
 	@GetMapping
 	public String display(@ModelAttribute("form") LoginForm form, @RequestParam(required = false) String operation,
-			HttpSession session) {
+			HttpSession session,Model model) {
 
 		if (operation != null && operation.equals("logout")) {
 			session.invalidate();
-			return "redirect:Login";
+			
+			model.addAttribute("success", "user logout successfully...!!!");
+			
 		}
 
 		return "LoginView";
@@ -55,6 +57,7 @@ public class LoginCtl {
 			return "redirect:Welcome";
 		}
 		model.addAttribute("error", "login & password is invalid..!!");
+		
 		return "LoginView";
 	}
 }

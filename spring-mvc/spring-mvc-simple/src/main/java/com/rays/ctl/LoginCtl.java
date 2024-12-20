@@ -4,6 +4,7 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,11 +24,14 @@ public class LoginCtl {
 
 	@GetMapping
 	public String display(@ModelAttribute("form") LoginForm form, @RequestParam(required = false) String operation,
-			HttpSession session) {
+			HttpSession session, Model model) {
          
 		if (operation != null && operation.equals("logout")) {
+			
 			session.invalidate();
-			return "redirect:Login";
+			
+			model.addAttribute("success", "user logout success..!!!");
+			
 		}
 
 		 

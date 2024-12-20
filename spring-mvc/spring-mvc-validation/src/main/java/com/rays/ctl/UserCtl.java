@@ -48,6 +48,22 @@ public class UserCtl {
 
 		return "UserView";
 	}
+	
+	@GetMapping("search")
+	public String display(@ModelAttribute("form") UserForm form, Model model) {
+
+		int pageNo = 1;
+		int pageSize = 5;
+
+		List list = service.search(null, pageNo, pageSize);
+
+		form.setPageNo(pageNo);
+
+		model.addAttribute("list", list);
+
+		return "UserListView";
+
+	}
 
 	@PostMapping
 	public String submit(@ModelAttribute("form") @Valid UserForm form, BindingResult bindingResult, Model model) {
@@ -75,21 +91,7 @@ public class UserCtl {
 		return "UserView";
 	}
 
-	@GetMapping("search")
-	public String display(@ModelAttribute("form") UserForm form, Model model) {
-
-		int pageNo = 1;
-		int pageSize = 5;
-
-		List list = service.search(null, pageNo, pageSize);
-
-		form.setPageNo(pageNo);
-
-		model.addAttribute("list", list);
-
-		return "UserListView";
-
-	}
+	
 
 	@PostMapping("search")
 	public String search(@ModelAttribute("form") UserForm form, @RequestParam(required = false) String operation,
@@ -115,6 +117,14 @@ public class UserCtl {
 			pageNo--;
 
 		}
+		
+		if (operation.equals("add")) {
+			return "redirect:/User";
+		}
+		if (operation.equals("reset")) {
+			return "redirect:/User/search";
+		}
+
 
 		if (operation.equals("search")) {
 
@@ -122,6 +132,7 @@ public class UserCtl {
 
 			dto.setId(form.getId());
 
+			dto.setLastName(form.getLastName());
 			dto.setFirstName(form.getFirstName());
 
 		}

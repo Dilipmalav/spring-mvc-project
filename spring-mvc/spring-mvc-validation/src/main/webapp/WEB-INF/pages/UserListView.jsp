@@ -12,15 +12,17 @@
 		<sf:hidden path="pageNo" />
 		<table>
 			<tr>
+				<th>FirstName :</th>
 				<td><sf:input path="firstName" />&nbsp; &nbsp;</td>
+				<th>LastName :</th>
+				<td><sf:input path="lastName" />&nbsp; &nbsp;</td>
 				<td><sf:select path="id">
 						<sf:option value="0">-----------select------------</sf:option>
 						<sf:options items="${userList}" itemValue="id"
 							itemLabel="firstName" />
 					</sf:select>&nbsp; &nbsp;</td>
 				<td><input type="submit" name="operation" value="search">
-				</td>
-			</tr>
+				<td><input type="submit" name="operation" value="reset"></tr>
 		</table>
 		<table style="width: 100%" border="1">
 			<tr>

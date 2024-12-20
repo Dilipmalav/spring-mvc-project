@@ -77,6 +77,9 @@ public class UserDAO {
 			if (dto.getFirstName() != null && dto.getFirstName().length() > 0) {
 				criteria.add(Restrictions.like("firstName", dto.getFirstName() + "%"));
 			}
+			if (dto.getLastName() != null && dto.getLastName().length() > 0) {
+				criteria.add(Restrictions.like("lastName", dto.getLastName() + "%"));
+			}
 			if (dto.getDob() != null) {
 				criteria.add(Restrictions.like("dob", dto.getDob()));
 			}

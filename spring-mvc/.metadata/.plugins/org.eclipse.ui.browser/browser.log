@@ -28,3 +28,44 @@ Dec 12, 2024 10:07:47.89 [16132:24096:1212/100747.888:ERROR:registration_request
 Dec 12, 2024 10:19:40.89 [16132:24096:1212/101940.890:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
 Dec 12, 2024 10:19:43.38 [16132:24096:1212/101943.382:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
 Dec 12, 2024 11:08:33.17 [16132:24096:1212/110833.171:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+Dec 19, 2024 12:58:58.70 NEW SESSION
+Dec 19, 2024 12:58:58.71 [16252:17732:1219/125858.686:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 12:59:00.09 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 19, 2024 12:59:00.14 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 19, 2024 12:59:28.13 [16252:17732:1219/125928.136:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:00:09.10 [16252:17732:1219/130009.103:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:01:36.15 [16252:17732:1219/130136.150:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:04:43.91 [16252:17732:1219/130443.911:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:10:30.00 [16252:17732:1219/131030.005:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:34:30.31 [2164:29584:1219/133430.317:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:34:30.44 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 19, 2024 13:34:30.44 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 19, 2024 13:34:51.27 [2164:29584:1219/133451.276:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:35:42.17 [2164:29584:1219/133542.171:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:37:12.49 [2164:29584:1219/133712.491:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:41:05.64 [2164:29584:1219/134105.648:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:48:25.03 [2164:29584:1219/134825.038:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 13:49:50.43 [2164:29584:1219/134950.431:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 19, 2024 14:20:39.60 [2164:29584:1219/142039.599:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 19, 2024 18:40:08.52 [29528:6088:1219/184008.526:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 18:40:09.88 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 19, 2024 18:40:09.90 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 19, 2024 18:40:37.02 [29528:6088:1219/184037.020:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 19, 2024 18:41:31.17 [29528:6088:1219/184131.175:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+Dec 20, 2024 13:31:53.10 NEW SESSION
+Dec 20, 2024 13:31:53.10 [21584:20416:1220/133153.102:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 20, 2024 13:31:54.20 Created TensorFlow Lite XNNPACK delegate for CPU.
+Dec 20, 2024 13:31:54.23 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Dec 20, 2024 13:32:15.96 [21584:20416:1220/133215.960:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 20, 2024 13:33:02.55 [21584:20416:1220/133302.553:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 20, 2024 13:33:14.36 [21584:20416:1220/133314.363:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 20, 2024 13:34:25.61 [21584:20416:1220/133425.614:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 20, 2024 13:37:36.38 [21584:24324:1220/133736.364:ERROR:device_event_log_impl.cc(201)] [13:37:36.364] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 20, 2024 13:37:38.09 [21584:24324:1220/133738.091:ERROR:device_event_log_impl.cc(201)] [13:37:38.091] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 20, 2024 13:37:59.07 [21584:24324:1220/133759.075:ERROR:device_event_log_impl.cc(201)] [13:37:59.075] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 20, 2024 13:38:11.64 [21584:20416:1220/133811.645:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 20, 2024 13:43:54.64 [21584:20416:1220/134354.640:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+Dec 20, 2024 13:44:43.23 [21584:20416:1220/134443.239:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Dec 20, 2024 14:18:52.94 [21584:24324:1220/141852.939:ERROR:device_event_log_impl.cc(201)] [14:18:52.938] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)

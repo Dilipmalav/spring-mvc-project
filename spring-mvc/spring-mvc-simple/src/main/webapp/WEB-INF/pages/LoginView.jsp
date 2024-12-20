@@ -12,9 +12,16 @@
 <body>
 
 	<%@ include file="Header.jsp"%>
-	<sf:form method="post" modelAttribute="form">
+	<sf:form method="post" action="Login" modelAttribute="form">
 		<div align="center">
 			<h1 style="color: navy">Login</h1>
+			
+			<H3 align="center">
+				<c:if test="${not empty error}">
+					<font color="red">${error}</font>
+				</c:if>
+			</H3>
+			
 			<table>
 				<tr>
 					<th align="left">Login ID :</th>
