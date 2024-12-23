@@ -4,4 +4,5 @@
   <module moduleId="org.eclipse.jst.j2ee.server:spring-mvc-validation" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:spring-mvc-frontctl" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.j2ee.server:spring-mvc-tiles" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:spring-mvc-language" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>

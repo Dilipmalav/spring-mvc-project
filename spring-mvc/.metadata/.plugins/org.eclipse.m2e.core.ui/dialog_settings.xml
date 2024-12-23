@@ -31,6 +31,8 @@
 			<item value="com.rays"/>
 		</list>
 		<list key="artifactId">
+			<item value="spring-mvc-language"/>
+			<item value="spring-mvc-frontctl"/>
 			<item value="spring-mvc-validation"/>
 			<item value="spring-mvc-simple"/>
 		</list>

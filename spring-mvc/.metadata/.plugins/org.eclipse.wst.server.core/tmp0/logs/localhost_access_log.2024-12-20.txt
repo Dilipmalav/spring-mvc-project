@@ -55,3 +55,16 @@
 0:0:0:0:0:0:0:1 - - [20/Dec/2024:18:34:10 +0530] "GET /spring-mvc-front-ctl/User HTTP/1.1" 404 682
 0:0:0:0:0:0:0:1 - - [20/Dec/2024:18:35:22 +0530] "GET /spring-mvc-front-ctl/User HTTP/1.1" 404 682
 0:0:0:0:0:0:0:1 - - [20/Dec/2024:18:37:14 +0530] "GET /spring-mvc-front-ctl/User HTTP/1.1" 404 682
+127.0.0.1 - - [20/Dec/2024:19:54:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:19:55:00 +0530] "GET /spring-mvc-language/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:19:55:09 +0530] "GET /spring-mvc-language/Login HTTP/1.1" 500 17859
+127.0.0.1 - - [20/Dec/2024:20:04:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:04:17 +0530] "GET /spring-mvc-language/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:04:27 +0530] "GET /spring-mvc-language/Login HTTP/1.1" 200 1872
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:04:36 +0530] "GET /spring-mvc-language/Login?lang=hi HTTP/1.1" 200 1880
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:04:51 +0530] "GET /spring-mvc-language/Login?lang=en HTTP/1.1" 200 1880
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:04:54 +0530] "GET /spring-mvc-language/Welcome HTTP/1.1" 200 1276
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:04:57 +0530] "GET /spring-mvc-language/Welcome?lang=hi HTTP/1.1" 200 1278
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:05:00 +0530] "GET /spring-mvc-language/Welcome?lang=hi HTTP/1.1" 200 1278
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:05:04 +0530] "GET /spring-mvc-language/Welcome?lang=en HTTP/1.1" 200 1276
+0:0:0:0:0:0:0:1 - - [20/Dec/2024:20:05:06 +0530] "GET /spring-mvc-language/Welcome?lang=hi HTTP/1.1" 200 1278
